@@ -19,6 +19,8 @@ client.send(b"GET / HTTP/1.1\r\nHOST: google.com\r\n\r\n")
 
 #receive some data
 response = client.recv(4096)
+
+#uncomment below code for full output 
 """
 print(f"client: {client}\n")
 print("\n clien end \n")
